@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="%aI%1QG[k8_F7|{1Xr|P">cpi</variable></variables><block type="pins_on_pulsed" id="[bBZT7Eji{C`FbRpxc(+" x="0" y="0"><field name="pin">DigitalPin.P12</field><field name="pulse">PulseValue.Low</field><statement name="HANDLER"><block type="variables_change" id="vLJwHH08WPZQd%ZmV4gh"><field name="VAR" id="%aI%1QG[k8_F7|{1Xr|P">cpi</field><value name="VALUE"><shadow type="math_number" id="=U1YiHO01L%nLLr?)+dE"><field name="NUM">1</field></shadow></value><next><block type="radio_datagram_send" id="Xl:q=_L(e5CH]^7lSBKf"><value name="value"><shadow type="math_number" id="ku?4g),X3W3J;fYp@qz-"><field name="NUM">1</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="%XrB]e-pKE)vOO?;oR1J" x="299" y="3"><statement name="HANDLER"><block type="variables_set" id="`0?bOG$RGhf(,rI[`G^-"><field name="VAR" id="%aI%1QG[k8_F7|{1Xr|P">cpi</field><value name="VALUE"><shadow type="math_number" id="y_.#v.=~mb?82uZU=(0?"><field name="NUM">0</field></shadow></value><next><block type="radio_set_group" id="QmQAr9qVp@0}~=J%)$6b"><value name="ID"><shadow type="math_number_minmax" id="wl|pQWgAu6R[zn]Xho3I"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">1</field></shadow></value><next><block type="device_show_leds" id="Ph.7iP_-v9;uS:jHE1B8"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></next></block></next></block></statement></block></xml>
